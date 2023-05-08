@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="root d-flex align-items-center justify-content-center">
+        <div class="container-lg rootContainer">
+            <div class="row h-100">
+                <div class="col-sm-6 h-100 px-5">
+                    <div class="w-100 h-100 rounded-4 loginPageCover position-relative">
+                        <div class="w-100 h-100 rounded-4 loginPageImage "></div>
+                        <div class="h-100 position-absolute top-0">
+                            <div class="w-100 d-flex align-items-start pt-5">
+                                <div class="logoIcon w-80 ms-4 me-0 "></div>
+                            </div>
+                            <div class="w-100 d-flex align-items-start text-white justify-content-start flex-column pt-5 px-4 opacity">
+                                <h4><b>L'espace numérique <br>pour l'habitat</b></h4>
+                                <h6 class="py-2 text-opacity-80 text-font-size">Nous accompagnons les propriétaires dans la <br> prise en main et la valorisation de leur habitation</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 h-100 pt-6 px-5">
+                   <form class="h-100 w-100">
+                        <div class="mx-2 my-4 pb-2">
+                            <h5 class="text-black-90"><b>Se connecter</b></h5>
+                        </div>
+                        
+                        <div class="row pb-2">
+                            <div class="col-sm-12">
+                                <label for="inputEmail3" class="loginLabel">Email</label>
+                                <input type="email" class="form-control inputBorder" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label for="inputEmail4" class="loginLabel">Mot de passe</label>
+                                <input type="password" class="form-control inputBorder" id="inputEmail4">
+                            </div>
+                        </div>
+                       
+                        <div class="w-100 d-flex align-items-end pb-2 justify-content-end text-font-size-11">
+                            <a href="../pages/forgotPassword.html" class="text-decoration-none" classs="pt-1"><b>Mot de passe oublié ?</b></a>
+                        </div>
+                        <div class="w-100 pb-2">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                <label class="form-check-label loginLabel" for="gridCheck1">
+                                  Se souvenir de moi
+                                </label>
+                            </div> 
+                        </div>
+                        <div class="w-100 pb-2 d-flex align-items-center justify-content-center">
+                            <button class="w-100 btn btn-primary text-font-size loginBtn" type="submit"><b>S'identifier</b></button>
+                        </div>
+
+                        <div class="w-100 pb-2 d-flex align-items-center text-font-size-11 justify-content-center">
+                            Vous n'avez pas de compte ?&nbsp;<a class="text-decoration-none" href="../pages/signup.html"><b>Créer un compte</b></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
